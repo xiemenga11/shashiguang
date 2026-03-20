@@ -1,0 +1,188 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "H2C隐形回卷纱窗",
+      "price": "598",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "shortDescription": "隐形美观，视野开阔，适合各类窗户",
+      "rating": 4.8,
+      "reviewsCount": 128,
+      "category": "隐形纱窗",
+      "stock": 42,
+      "discount": 0,
+      "badge": "热卖",
+      "description": "采用进口配件和优质铝合金材质，隐形回卷设计，不影响窗户美观，视野更开阔。特有缓冲回卷机构，开合顺滑无声，使用寿命长达10年以上。",
+      "images": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
+      ],
+      "colors": ["白色", "灰色", "咖啡色"],
+      "material": "进口配件+铝合金",
+      "style": "隐形回卷"
+    },
+    {
+      "id": "2",
+      "name": "磁吸式快拆纱窗",
+      "price": "388",
+      "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+      "shortDescription": "拆洗方便，磁吸设计，一秒安装",
+      "rating": 4.9,
+      "reviewsCount": 256,
+      "category": "磁吸纱窗",
+      "stock": 80,
+      "discount": 5,
+      "badge": "推荐",
+      "description": "创新磁吸设计，无需工具即可拆洗，方便快捷，特别适合经常需要清洁的用户。四角磁吸定位，安装稳固不脱落。",
+      "images": [
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&h=600&fit=crop"
+      ],
+      "colors": ["白色", "黑色", "灰色"],
+      "material": "优质铝合金+磁吸条",
+      "style": "磁吸式"
+    },
+    {
+      "id": "3",
+      "name": "三推式金刚网纱窗",
+      "price": "688",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+      "shortDescription": "坚固耐用，防盗防护，一推即开",
+      "rating": 4.7,
+      "reviewsCount": 186,
+      "category": "金刚网纱窗",
+      "stock": 35,
+      "discount": 0,
+      "badge": "热销",
+      "description": "采用304不锈钢金刚网，强度高、耐腐蚀、可防盗，同时具备防蚊防虫功能。三联动轨道设计，推拉顺畅不卡顿。",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+      ],
+      "colors": ["黑色", "灰色", "香槟色"],
+      "material": "304不锈钢金刚网+铝合金",
+      "style": "三推式"
+    },
+    {
+      "id": "4",
+      "name": "折叠式纱门",
+      "price": "458",
+      "image": "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&h=600&fit=crop",
+      "shortDescription": "节省空间，美观大方，适合阳台门",
+      "rating": 4.6,
+      "reviewsCount": 98,
+      "category": "纱门系列",
+      "stock": 50,
+      "discount": 10,
+      "badge": "新品",
+      "description": "折叠式设计，最大程度节省空间，特别适合阳台门、推拉门等大开口位置。采用优质网布，透风不透蚊。",
+      "images": [
+        "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
+      ],
+      "colors": ["白色", "棕色", "灰色"],
+      "material": "优质合金+高透网",
+      "style": "折叠式"
+    },
+    {
+      "id": "5",
+      "name": "高清隐形纱窗",
+      "price": "328",
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop",
+      "shortDescription": "高透光率，视野清晰，几乎看不见",
+      "rating": 4.8,
+      "reviewsCount": 312,
+      "category": "隐形纱窗",
+      "stock": 65,
+      "discount": 0,
+      "badge": "爆款",
+      "description": "采用日本进口高透网，透光率高达95%以上，视野清晰，同时有效防蚊防尘。几乎隐形的视觉效果，不影响室内采光和美观。",
+      "images": [
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop"
+      ],
+      "colors": ["透明", "白色", "灰色"],
+      "material": "日本进口高透网+铝合金",
+      "style": "高清隐形"
+    },
+    {
+      "id": "6",
+      "name": "防宠物抓纱窗",
+      "price": "788",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&h=600&fit=crop",
+      "shortDescription": "宠物友好，耐抓耐用，安全防护",
+      "rating": 4.9,
+      "reviewsCount": 76,
+      "category": "金刚网纱窗",
+      "stock": 28,
+      "discount": 0,
+      "badge": "精选",
+      "description": "特别加固的金刚网设计，能有效防止宠物抓挠，同时具备防盗、防蚊、防坠落功能。为有宠物和小孩的家庭提供全方位安全保障。",
+      "images": [
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&h=600&fit=crop"
+      ],
+      "colors": ["黑色", "灰色"],
+      "material": "加粗304不锈钢金刚网",
+      "style": "宠物防护"
+    },
+    {
+      "id": "7",
+      "name": "电动智能纱窗",
+      "price": "1288",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+      "shortDescription": "智能控制，遥控操作，自动开关",
+      "rating": 4.5,
+      "reviewsCount": 45,
+      "category": "智能纱窗",
+      "stock": 15,
+      "discount": 8,
+      "badge": "科技",
+      "description": "搭载智能电机，可通过遥控器、手机APP或语音控制开关，实现智能化家居体验。支持定时开关、风雨感应自动关闭等智能功能。",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
+      ],
+      "colors": ["白色", "银色"],
+      "material": "智能电机+高透网+铝合金",
+      "style": "电动智能"
+    },
+    {
+      "id": "8",
+      "name": "儿童防护纱窗",
+      "price": "568",
+      "image": "https://images.unsplash.com/photo-1598928506311-c55ez89a2cc8?w=800&h=600&fit=crop",
+      "shortDescription": "安全防护，防止坠落，童锁设计",
+      "rating": 4.8,
+      "reviewsCount": 156,
+      "category": "防护纱窗",
+      "stock": 42,
+      "discount": 0,
+      "badge": "安全",
+      "description": "特别针对有儿童的家庭设计，具备防坠落、防误开等功能，让家长更安心。加装儿童安全锁，防止儿童意外打开。",
+      "images": [
+        "https://images.unsplash.com/photo-1598928506311-c55ez89a2cc8?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop"
+      ],
+      "colors": ["白色", "灰色"],
+      "material": "加厚铝合金+安全网",
+      "style": "儿童防护"
+    }
+  ]
+}
