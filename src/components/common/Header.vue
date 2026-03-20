@@ -15,10 +15,10 @@
           text-color="#333"
           active-text-color="#409EFF"
         >
-          <el-menu-item index="/">首页</el-menu-item>
-          <el-menu-item index="/products">产品展示</el-menu-item>
-          <el-menu-item index="/about">公司介绍</el-menu-item>
-          <el-menu-item index="/contact">联系我们</el-menu-item>
+          <el-menu-item style="color: #fff;" index="/">首页</el-menu-item>
+          <el-menu-item style="color: #fff;" index="/products">产品展示</el-menu-item>
+          <el-menu-item style="color: #fff;" index="/about">公司介绍</el-menu-item>
+          <el-menu-item style="color: #fff;" index="/contact">联系我们</el-menu-item>
         </el-menu>
       </nav>
       <!-- <div class="contact-info">

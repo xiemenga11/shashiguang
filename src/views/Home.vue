@@ -60,7 +60,7 @@
             :style="{ animationDelay: `${index * 0.1}s` }"
           >
             <div class="feature-icon">
-              <i :class="feature.icon"></i>
+              <i :class="feature.icon"><el-icon><component :is="feature.icon" /></el-icon></i>
             </div>
             <h3>{{ feature.title }}</h3>
             <p>{{ feature.description }}</p>
@@ -114,7 +114,7 @@
     </section>
 
     <!-- Stats Section - 数据展示 -->
-    <section class="stats">
+    <!-- <section class="stats">
       <div class="container">
         <div class="stats-grid">
           <div class="stat-item" v-for="stat in stats" :key="stat.label">
@@ -122,6 +122,18 @@
             <div class="stat-label">{{ stat.label }}</div>
           </div>
         </div>
+      </div>
+    </section> -->
+
+    <!-- 合作伙伴 -->
+    <section class="stats">
+      <div class="container">
+          <h2 class="partner-box-title">——— 我们的合作伙伴 ———</h2>
+          <div class="partner-logo-box">
+            <a href="https://www.freeri.com.cn/" target="_blank"><img src="./../assets/freeri.png" alt="飞宇门窗" loading="lazy" /></a>
+            <a href="https://www.phoness.cn/" target="_blank"><img style="height:35px;" src="./../assets/phoness.png" alt="飞宇门窗" loading="lazy" /></a>
+            <a href="https://www.qianzikeji.cn/" target="_blank"><img src="./../assets/qianzi.png" alt="飞宇门窗" loading="lazy" /></a>
+          </div>
       </div>
     </section>
 
@@ -160,19 +172,19 @@ export default {
         image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&h=1080&fit=crop',
         title: '无距自然 纵横科技',
         brand: '纱时光',
-        year: 'SINCE 1999'
+        year: 'SINCE 2025'
       },
       {
         image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1080&fit=crop',
         title: '隐形防护 清晰视野',
         brand: '纱时光',
-        year: 'SINCE 1999'
+        year: 'SINCE 2025'
       },
       {
         image: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920&h=1080&fit=crop',
         title: '智能防护 品质生活',
         brand: '纱时光',
-        year: 'SINCE 1999'
+        year: 'SINCE 2025'
       }
     ]
 
@@ -180,22 +192,22 @@ export default {
       {
         title: '品质保证',
         description: '采用优质材料，严格质量控制，确保每一件产品都经久耐用',
-        icon: 'el-icon-circle-check'
+        icon: 'Flag'
       },
       {
         title: '专业团队',
         description: '拥有多年行业经验的专业团队，为您提供专业的安装服务',
-        icon: 'el-icon-user'
+        icon: 'Avatar'
       },
       {
         title: '定制服务',
         description: '根据您的需求提供个性化定制服务，满足不同场景需求',
-        icon: 'el-icon-setting'
+        icon: 'Aim'
       },
       {
         title: '售后保障',
         description: '完善的售后服务体系，让您购买无忧，使用放心',
-        icon: 'el-icon-phone'
+        icon: 'Service'
       }
     ]
 
@@ -235,6 +247,29 @@ export default {
 </script>
 
 <style scoped>
+
+.partner-box-title{
+  font-size: 24px;
+  /* font-weight: bold; */
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.partner-logo-box{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-logo-box img{
+  height: 60px;
+  width: auto;
+}
+
 .home {
   background-color: white;
 }
@@ -308,6 +343,7 @@ export default {
   line-height: 1.2;
   letter-spacing: 6px;
   animation: fadeInRight 0.8s ease-out;
+  color: white;
 }
 
 .brand-line {
@@ -742,6 +778,14 @@ export default {
   .slide-title {
     font-size: 2.5rem;
     letter-spacing: 4px;
+  }
+
+  .partner-logo-box{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

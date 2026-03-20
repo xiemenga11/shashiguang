@@ -304,8 +304,8 @@ export default {
   height: 100%;
   background: linear-gradient(
     135deg,
-    rgba(44, 62, 80, 0.85) 0%,
-    rgba(52, 152, 219, 0.6) 100%
+    rgba(44, 62, 80, 0.5) 0%,
+    rgba(52, 152, 219, 0.5) 100%
   );
 }
 
@@ -334,6 +334,7 @@ export default {
   font-weight: 700;
   margin: 0 0 16px 0;
   letter-spacing: 8px;
+  color: white;
 }
 
 .hero-subtitle {

@@ -34,7 +34,7 @@ export default {
   padding: 0;
   width: 100%;
   /* 导航栏高度60px，需要留出空间 */
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 /* 响应式设计 */

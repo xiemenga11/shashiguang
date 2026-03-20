@@ -310,6 +310,7 @@ export default {
 .product-detail-page {
   background: #fafafa;
   min-height: 100vh;
+  margin-top: 60px;
 }
 
 .container {

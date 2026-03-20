@@ -6,17 +6,26 @@
           <!-- 品牌介绍 -->
           <div class="footer-col brand-col">
             <div class="footer-logo">
-              <img src="../../assets/logo.png" alt="纱时光" />
-              <span class="logo-text">纱时光</span>
+              <img style="height: 60px;" src="../../assets/logo.png" alt="纱时光" />
+              <!-- <span class="logo-text">纱时光</span> -->
             </div>
             <p class="brand-desc">专业纱窗制造商，致力于为客户提供高品质的纱窗产品和优质服务，让您的家更舒适、更安全。</p>
             <div class="social-icons">
-              <a href="#" class="social-link" title="微信">
+              <!-- <a href="#" class="social-link" title="微信">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8.69 13.3c.39-.39.89-.64 1.45-.73L11 12l-.86.57c-.56.09-1.06.34-1.45.73zm-.69-3.3c.17-.4.52-.69.95-.79l1.2-.3-1.35-.54c-.43.1-.78.39-.95.79l.15.84zM16 8a6 6 0 0 1-6 6H6a6 6 0 0 1 6-6V8z"/></svg>
               </a>
               <a href="#" class="social-link" title="微博">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M10.098 20c-4.453 0-8.098-2.352-8.098-5.25 0-1.32.756-2.94 1.962-4.482C5.67 7.92 8.11 7.5 9.47 8.28c.71.41 1.21 1.04 1.46 1.82.25-.78.75-1.41 1.46-1.82 1.36-.78 3.8-.36 5.51 2.09 1.2 1.54 1.96 3.16 1.96 4.47 0 2.9-3.65 5.25-8.09 5.25h-1.21z"/></svg>
-              </a>
+              </a> -->
+              <!-- <img src="../../assets/gongzhonghao.png" alt=""> -->
+            </div>
+            <div class="footer-logo">
+              <span class="logo-text">合作伙伴</span>
+            </div>
+            <div class="footer-logo" style="display: flex; align-items: flex-start; flex-direction: column;">
+              <a href="https://www.freeri.com.cn/" target="_blank"><img style="height: 60px;" src="../../assets/freeri.png" alt="飞宇门窗" /></a>
+              <a href="https://www.phoness.cn/" target="_blank"><img style="height: 40px;" src="../../assets/phoness.png" alt="菲尼斯门窗" /></a>
+              <a href="https://www.qianzikeji.cn/" target="_blank"><img style="height: 60px;" src="../../assets/qianzi.png" alt="千紫门窗" /></a>
             </div>
           </div>
 
@@ -50,20 +59,31 @@
             <div class="contact-info">
               <div class="contact-item">
                 <span class="contact-icon">📞</span>
-                <span class="contact-text">400-888-8888</span>
+                <a style="color: #bdc3c7;" href="tel:13350809075" class="contact-text">谢先生  133-5080-9075</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📞</span>
+                <a style="color: #bdc3c7;" href="tel:13438092819" class="contact-text">周先生  134-3809-2819</a>
               </div>
               <div class="contact-item">
                 <span class="contact-icon">📧</span>
-                <span class="contact-text">info@shashiguang.com</span>
+                <a style="color: #bdc3c7;" href="mailto:xiemenga11@126.com" class="contact-text">xiemenga11@126.com</a>
               </div>
               <div class="contact-item">
                 <span class="contact-icon">📍</span>
-                <span class="contact-text">上海市浦东新区张江高科技园区</span>
+                <span class="contact-text">四川省广汉市金鱼镇飞宇路3号</span>
               </div>
               <div class="contact-item">
+                <img style="height: 150px;" src="../../assets/zhou.png" alt="">
+                <img style="height: 150px;" src="../../assets/xie.jpg" alt="">
+              </div>
+              <div class="contact-item">
+                <img src="../../assets/gongzhonghao.png" alt="">
+              </div>
+              <!-- <div class="contact-item">
                 <span class="contact-icon">⏰</span>
                 <span class="contact-text">周一至周日 9:00-18:00</span>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -73,7 +93,7 @@
     <div class="footer-bottom">
       <div class="container">
         <p class="copyright">© 2024 纱时光 All Rights Reserved</p>
-        <p class="beian">沪ICP备20240001号</p>
+        <!-- <p class="beian">沪ICP备20240001号</p> -->
       </div>
     </div>
   </footer>
