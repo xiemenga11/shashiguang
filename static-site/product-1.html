@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="H2C隐形回卷纱窗 - 热卖产品，隐形美观，售价598元/套">
+    <meta name="keywords" content="H2C隐形回卷纱窗,隐形纱窗">
+    <title>H2C隐形回卷纱窗 - 纱时光</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="assets/logo.png" alt="纱时光" class="logo-img"></a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="products.html" class="nav-link active">产品中心</a>
+                <a href="about.html" class="nav-link">关于我们</a>
+                <a href="contact.html" class="nav-link">联系我们</a>
+            </nav>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">首页</a><a href="products.html">产品中心</a><a href="about.html">关于我们</a><a href="contact.html">联系我们</a>
+    </div>
+
+    <div class="breadcrumb">
+        <div class="container"><a href="index.html">首页</a> &gt; <a href="products.html">产品中心</a> &gt; <span>H2C隐形回卷纱窗</span></div>
+    </div>
+
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-detail-grid">
+                <div class="product-gallery">
+                    <div class="gallery-main">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=450&fit=crop" alt="H2C隐形回卷纱窗" id="mainImage">
+                        <span class="badge badge-hot">热卖</span>
+                    </div>
+                    <div class="gallery-thumbs">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=120&h=90&fit=crop" alt="产品图1" class="active" onclick="changeImage(this)">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=90&fit=crop" alt="产品图2" onclick="changeImage(this)">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=120&h=90&fit=crop" alt="产品图3" onclick="changeImage(this)">
+                    </div>
+                </div>
+
+                <div class="product-info-detail">
+                    <span class="product-category-tag">隐形纱窗</span>
+                    <h1>H2C隐形回卷纱窗</h1>
+                    <p class="product-summary">隐形美观，自动回卷设计，使用便捷。适合各种门窗安装，是现代家居的理想选择。</p>
+                    
+                    <div class="product-price-detail">
+                        <span class="price-label">优惠价</span>
+                        <span class="price-value">¥598</span>
+                        <span class="price-unit">/套</span>
+                    </div>
+
+                    <div class="product-specs">
+                        <div class="spec-item"><span class="spec-label">材质</span><span class="spec-value">高强度铝合金 + 玻璃纤维网</span></div>
+                        <div class="spec-item"><span class="spec-label">网孔</span><span class="spec-value">18×18目</span></div>
+                        <div class="spec-item"><span class="spec-label">颜色</span><span class="spec-value">白色/灰色/香槟色</span></div>
+                        <div class="spec-item"><span class="spec-label">质保</span><span class="spec-value">5年质保</span></div>
+                    </div>
+
+                    <div class="product-actions">
+                        <a href="contact.html" class="btn btn-primary btn-large">立即咨询</a>
+                        <a href="tel:400-888-8888" class="btn btn-outline-dark">电话联系</a>
+                    </div>
+
+                    <div class="product-features">
+                        <div class="feature-item"><span class="feature-icon">🚚</span><span>免费上门测量</span></div>
+                        <div class="feature-item"><span class="feature-icon">🔧</span><span>专业安装服务</span></div>
+                        <div class="feature-item"><span class="feature-icon">💯</span><span>品质保障</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-tabs">
+                <div class="tabs-header">
+                    <button class="tab-btn active" onclick="openTab('description')">产品描述</button>
+                    <button class="tab-btn" onclick="openTab('specs')">详细规格</button>
+                    <button class="tab-btn" onclick="openTab('faq')">常见问题</button>
+                </div>
+                <div class="tabs-content">
+                    <div id="description" class="tab-panel active">
+                        <h3>产品特点</h3>
+                        <ul>
+                            <li><strong>隐形美观</strong>：收卷后几乎看不见纱窗，不影响室内采光和视野</li>
+                            <li><strong>自动回卷</strong>：轻轻一拉即可展开，回卷顺畅无阻</li>
+                            <li><strong>优质网布</strong>：采用玻璃纤维材质，不易变形，使用寿命长</li>
+                            <li><strong>防蚊效果好</strong>：18×18目高密度网孔，有效阻挡蚊虫</li>
+                            <li><strong>易于清洁</strong>：可用湿布轻轻擦拭，维护方便</li>
+                        </ul>
+                        <h3>适用范围</h3>
+                        <p>适用于铝合金门窗、塑钢门窗等各种类型的推拉窗、平开窗。广泛用于家庭住宅、办公室、商铺等场所。</p>
+                    </div>
+                    <div id="specs" class="tab-panel">
+                        <table class="specs-table">
+                            <tr><td>产品型号</td><td>H2C</td></tr>
+                            <tr><td>材质</td><td>高强度铝合金框架 + 玻璃纤维网</td></tr>
+                            <tr><td>网孔规格</td><td>18×18目</td></tr>
+                            <tr><td>框架厚度</td><td>25mm</td></tr>
+                            <tr><td>可选颜色</td><td>白色、灰色、香槟色</td></tr>
+                            <tr><td>最大尺寸</td><td>1800mm × 2000mm</td></tr>
+                            <tr><td>质保期限</td><td>5年</td></tr>
+                        </table>
+                    </div>
+                    <div id="faq" class="tab-panel">
+                        <div class="faq-item"><h4>Q: 如何选择合适的纱窗尺寸？</h4><p>A: 我们提供免费上门测量服务，专业人员会到您家实地测量。</p></div>
+                        <div class="faq-item"><h4>Q: 安装需要多长时间？</h4><p>A: 一般情况下，一扇窗户的安装大约需要30-60分钟。</p></div>
+                        <div class="faq-item"><h4>Q: 如何清洁和保养？</h4><p>A: 用软毛刷或湿布轻轻擦拭即可。</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="related-products">
+        <div class="container">
+            <h2>相关产品推荐</h2>
+            <div class="products-grid">
+                <div class="product-card" onclick="location.href='product-2.html'"><div class="product-image"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop" alt="H5豪华磁吸纱窗"></div><div class="product-info"><span class="product-category">磁吸纱窗</span><h3 class="product-name">H5豪华磁吸纱窗</h3><div class="product-price">¥458</div></div></div>
+                <div class="product-card" onclick="location.href='product-4.html'"><div class="product-image"><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop" alt="H10高清透明纱窗"></div><div class="product-info"><span class="product-category">隐形纱窗</span><h3 class="product-name">H10高清透明纱窗</h3><div class="product-price">¥328</div></div></div>
+                <div class="product-card" onclick="location.href='product-8.html'"><div class="product-image"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="H8口袋纱窗"><span class="badge badge-new">新品</span></div><div class="product-info"><span class="product-category">口袋纱窗</span><h3 class="product-name">H8口袋纱窗</h3><div class="product-price">¥388</div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="assets/logo.png" alt="纱时光" class="logo-img">
+                    </a>
+                    <p>专业从事纱窗研发、生产、销售于一体的高新技术企业，为您的家提供全方位的防护方案。</p>
+                    <!-- <div class="social-links">
+                        <a href="#" title="微信">💬</a>
+                        <a href="#" title="微博">📱</a>
+                        <a href="#" title="抖音">🎵</a>
+                    </div> -->
+                </div>
+                <div class="footer-links">
+                    <h4>产品分类</h4>
+                    <ul>
+                        <li><a href="products.html">隐形纱窗</a></li>
+                        <li><a href="products.html">磁吸纱窗</a></li>
+                        <li><a href="products.html">金刚网纱窗</a></li>
+                        <li><a href="products.html">口袋纱窗</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>关于我们</h4>
+                    <ul>
+                        <li><a href="about.html">公司简介</a></li>
+                        <li><a href="about.html">发展历程</a></li>
+                        <li><a href="about.html">企业荣誉</a></li>
+                        <li><a href="about.html">合作伙伴</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <p>📞 周先生: 13438092819</p>
+                    <p>📞 谢先生: 13350809075</p>
+                    <p>📧 xiemenga11@126.com</p>
+                    <p>📍 四川省广汉市金鱼镇飞宇路3号</p>
+                    <div class="footer-qrcodes">
+                        <div class="footer-qr-row">
+                            <img class="footer-qr-item" src="assets/zhou.png" alt="周经理">
+                            <img class="footer-qr-item" src="assets/xie.jpg" alt="谢经理">
+                        </div>
+                        <div class="footer-qr-row">
+                            <img class="footer-qr-item-2" src="assets/gongzhonghao.png" alt="公众号">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-partners">
+                    <h4>合作伙伴</h4>
+                    <div class="footer-partner-logos">
+                        <img src="assets/freeri.png" alt="freeri">
+                        <img src="assets/phoness.png" alt="phoness">
+                        <img src="assets/qianzi.png" alt="qianzi">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 纱时光 版权所有 | <a href="#">隐私政策</a> | <a href="#">使用条款</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function changeImage(thumb) { document.getElementById('mainImage').src = thumb.src.replace('120x90', '600x450'); document.querySelectorAll('.gallery-thumbs img').forEach(img => img.classList.remove('active')); thumb.classList.add('active'); }
+        function openTab(tabId) { document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active')); document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active')); document.getElementById(tabId).classList.add('active'); event.target.classList.add('active'); }
+        function toggleMobileMenu() { document.getElementById('mobileMenu').classList.toggle('active'); }
+    </script>
+</body>
+</html>

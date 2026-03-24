@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="金刚网平开纱窗 - 平开设计，售价698元/套">
+    <title>金刚网平开纱窗 - 纱时光</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"><div class="container"><a href="index.html" class="logo"><img src="assets/logo.png" alt="纱时光" class="logo-img"></a><nav class="nav"><a href="index.html" class="nav-link">首页</a><a href="products.html" class="nav-link active">产品中心</a><a href="about.html" class="nav-link">关于我们</a><a href="contact.html" class="nav-link">联系我们</a></nav><button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button></div></header>
+    <div class="mobile-menu" id="mobileMenu"><a href="index.html">首页</a><a href="products.html">产品中心</a><a href="about.html">关于我们</a><a href="contact.html">联系我们</a></div>
+    <div class="breadcrumb"><div class="container"><a href="index.html">首页</a> &gt; <a href="products.html">产品中心</a> &gt; <span>金刚网平开纱窗</span></div></div>
+
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-detail-grid">
+                <div class="product-gallery"><div class="gallery-main"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=450&fit=crop" alt="金刚网平开纱窗" id="mainImage"></div><div class="gallery-thumbs"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=120&h=90&fit=crop" alt="产品图1" class="active" onclick="changeImage(this)"><img src="https://images.unsplash.com/photo-1550226891-ef816aed4a98?w=120&h=90&fit=crop" alt="产品图2" onclick="changeImage(this)"></div></div>
+                <div class="product-info-detail">
+                    <span class="product-category-tag">金刚网纱窗</span>
+                    <h1>金刚网平开纱窗</h1>
+                    <p class="product-summary">平开设计，开合顺畅。铰链式安装，像开门一样方便，适合频繁进出的场所。</p>
+                    <div class="product-price-detail"><span class="price-label">优惠价</span><span class="price-value">¥698</span><span class="price-unit">/套</span></div>
+                    <div class="product-specs">
+                        <div class="spec-item"><span class="spec-label">材质</span><span class="spec-value">304不锈钢金刚网 + 铝合金框架</span></div>
+                        <div class="spec-item"><span class="spec-label">网孔</span><span class="spec-value">12×12目</span></div>
+                        <div class="spec-item"><span class="spec-label">颜色</span><span class="spec-value">灰色/黑色/香槟色</span></div>
+                        <div class="spec-item"><span class="spec-label">质保</span><span class="spec-value">10年质保</span></div>
+                    </div>
+                    <div class="product-actions">
+                        <a href="contact.html" class="btn btn-primary btn-large">立即咨询</a>
+                        <a href="tel:400-888-8888" class="btn btn-outline-dark">电话联系</a>
+                    </div>
+                    <div class="product-features">
+                        <div class="feature-item"><span class="feature-icon">🚚</span><span>免费上门测量</span></div>
+                        <div class="feature-item"><span class="feature-icon">🔧</span><span>专业安装服务</span></div>
+                        <div class="feature-item"><span class="feature-icon">💯</span><span>品质保障</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-tabs">
+                <div class="tabs-header"><button class="tab-btn active" onclick="openTab('description')">产品描述</button><button class="tab-btn" onclick="openTab('specs')">详细规格</button><button class="tab-btn" onclick="openTab('faq')">常见问题</button></div>
+                <div class="tabs-content">
+                    <div id="description" class="tab-panel active">
+                        <h3>产品特点</h3>
+                        <ul>
+                            <li><strong>平开设计</strong>：铰链式安装，像开门一样方便开合</li>
+                            <li><strong>开合顺畅</strong>：优质铰链，开合轻便无声</li>
+                            <li><strong>金刚网防护</strong>：304不锈钢材质，坚固防盗</li>
+                            <li><strong>180度开启</strong>：纱窗可完全打开，方便大型物品进出</li>
+                            <li><strong>密封性好</strong>：四周密封条设计</li>
+                        </ul>
+                    </div>
+                    <div id="specs" class="tab-panel"><table class="specs-table"><tr><td>产品类型</td><td>金刚网平开纱窗</td></tr><tr><td>金刚网材质</td><td>304不锈钢</td></tr><tr><td>开启角度</td><td>0-180度</td></tr><tr><td>质保期限</td><td>10年</td></tr></table></div>
+                    <div id="faq" class="tab-panel"><div class="faq-item"><h4>Q: 平开纱窗占用空间吗？</h4><p>A: 平开纱窗需要向外或向内开启的空间，购买前请确认安装位置有足够的空间。</p></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="related-products"><div class="container"><h2>相关产品推荐</h2><div class="products-grid"><div class="product-card" onclick="location.href='product-5.html'"><div class="product-image"><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop" alt="金刚网三推纱窗"><span class="badge badge-hot">热卖</span></div><div class="product-info"><span class="product-category">金刚网纱窗</span><h3 class="product-name">金刚网三推纱窗</h3><div class="product-price">¥888</div></div></div><div class="product-card" onclick="location.href='product-6.html'"><div class="product-image"><img src="https://images.unsplash.com/photo-1550226891-ef816aed4a98?w=400&h=300&fit=crop" alt="金刚网两推纱窗"></div><div class="product-info"><span class="product-category">金刚网纱窗</span><h3 class="product-name">金刚网两推纱窗</h3><div class="product-price">¥768</div></div></div></div></div></section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="assets/logo.png" alt="纱时光" class="logo-img">
+                    </a>
+                    <p>专业从事纱窗研发、生产、销售于一体的高新技术企业，为您的家提供全方位的防护方案。</p>
+                    <!-- <div class="social-links">
+                        <a href="#" title="微信">💬</a>
+                        <a href="#" title="微博">📱</a>
+                        <a href="#" title="抖音">🎵</a>
+                    </div> -->
+                </div>
+                <div class="footer-links">
+                    <h4>产品分类</h4>
+                    <ul>
+                        <li><a href="products.html">隐形纱窗</a></li>
+                        <li><a href="products.html">磁吸纱窗</a></li>
+                        <li><a href="products.html">金刚网纱窗</a></li>
+                        <li><a href="products.html">口袋纱窗</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>关于我们</h4>
+                    <ul>
+                        <li><a href="about.html">公司简介</a></li>
+                        <li><a href="about.html">发展历程</a></li>
+                        <li><a href="about.html">企业荣誉</a></li>
+                        <li><a href="about.html">合作伙伴</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系我们</h4>
+                    <p>📞 周先生: 13438092819</p>
+                    <p>📞 谢先生: 13350809075</p>
+                    <p>📧 xiemenga11@126.com</p>
+                    <p>📍 四川省广汉市金鱼镇飞宇路3号</p>
+                    <div class="footer-qrcodes">
+                        <div class="footer-qr-row">
+                            <img class="footer-qr-item" src="assets/zhou.png" alt="周经理">
+                            <img class="footer-qr-item" src="assets/xie.jpg" alt="谢经理">
+                        </div>
+                        <div class="footer-qr-row">
+                            <img class="footer-qr-item-2" src="assets/gongzhonghao.png" alt="公众号">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-partners">
+                    <h4>合作伙伴</h4>
+                    <div class="footer-partner-logos">
+                        <img src="assets/freeri.png" alt="freeri">
+                        <img src="assets/phoness.png" alt="phoness">
+                        <img src="assets/qianzi.png" alt="qianzi">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 纱时光 版权所有 | <a href="#">隐私政策</a> | <a href="#">使用条款</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function changeImage(thumb) { document.getElementById('mainImage').src = thumb.src.replace('120x90', '600x450'); document.querySelectorAll('.gallery-thumbs img').forEach(img => img.classList.remove('active')); thumb.classList.add('active'); }
+        function openTab(tabId) { document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active')); document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active')); document.getElementById(tabId).classList.add('active'); event.target.classList.add('active'); }
+        function toggleMobileMenu() { document.getElementById('mobileMenu').classList.toggle('active'); }
+    </script>
+</body>
+</html>
